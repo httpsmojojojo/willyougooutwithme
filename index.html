@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message for You</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Hey TIKA,</h1>
+        <p class="question">I was wondering if you would like to go on a date with me?</br>
+        Please choose any date from January 1st to January 5th!!</p>
+        <img class="gif" alt="gif" src="https://media.giphy.com/media/FTGah7Mx3ss04PcasF/giphy.gif"/>
+        <label for="datePicker">Choose a date:</label>
+        <input type="date" id="datePicker" name="date" min="2024-01-01" max="2024-01-05" required>
+        <div class="btn-group">
+            <button class="yes-btn">Yes</button>
+            <button class="no-btn">No</button>
+        </div>
+        <div class="date-message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
